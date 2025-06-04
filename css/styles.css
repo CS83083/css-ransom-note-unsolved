@@ -81,224 +81,251 @@ body {
 }
 
 /* DID word */
-
-.didDLetter {
-}
-
-.didILetter {
-}
-
-.didDTwoLetter {
-}
-
-/* THE word */
-
-.theTLetter {
-}
-
-.theHLetter {
-}
-
-.theELetter {
-}
-
-/* FRONT-END word */
-
-.frontendFLetter {
-}
-
-.frontendRLetter {
-}
-
-.frontendOLetter {
-}
-
-.frontendNLetter {
-}
-
-.frontendTLetter {
-}
-
-.frontendELetter {
-}
-
-.frontendNTwoLetter {
-}
-
-.frontendDLetter {
-}
-
-/* DEVELOPER word */
-
-.developerDLetter {
-}
-.developerELetter {
-}
-.developerVLetter {
-}
-.developerETwoLetter {
-}
-.developerLLetter {
-}
-.developerOLetter {
-}
-.developerPLetter {
-}
-.developerEThreeLetter {
-}
-.developerRLetter {
-}
-
-/* TAKE word */
-
+/* Style Group 1: Bold Red Letters */
+.didDLetter,
+.theTLetter,
+.frontendFLetter,
+.developerDLetter,
 .takeTLetter {
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
 }
+
+/* Style Group 2: Green Underlined Letters */
+.didILetter,
+.theHLetter,
+.frontendRLetter,
+.developerELetter,
 .takeALetter {
+    font-size: 20px;
+    color: rgb(0, 128, 0);
+    font-weight: normal;
+    text-decoration: underline;
+    text-transform: lowercase;
+    font-family: Georgia, serif;
 }
+
+/* Style Group 3: Blue Line-through Letters */
+.didDTwoLetter,
+.theELetter,
+.frontendOLetter,
+.developerVLetter,
 .takeKLetter {
-}
-.takeELetter {
-}
-
-/* UP word */
-
-.upULetter {
-}
-.upPLetter {
+    font-size: 18px;
+    color: hsl(240, 100%, 50%);
+    font-weight: 400;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-family: 'Courier New', monospace;
 }
 
-/* GARDENING word */
-
+/* Style Group 4: Purple Overlined Letters */
+.frontendNLetter,
+.developerETwoLetter,
+.takeELetter,
+.upULetter,
 .gardeningGLetter {
-}
-.gardeningALetter {
-}
-.gardeningRLetter {
-}
-.gardeningDLetter {
-}
-.gardeningELetter {
-}
-.gardeningNLetter {
-}
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
+    font-size: 22px;
+    color: #800080;
+    font-weight: 700;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-family: Verdana, sans-serif;
 }
 
-/* BECAUSE word */
-
+/* Style Group 5: Orange Large Letters */
+.frontendTLetter,
+.developerLLetter,
+.upPLetter,
+.gardeningALetter,
 .becauseBLetter {
-}
-.becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
-}
-.becauseSLetter {
-}
-.becauseETwoLetter {
+    font-size: 28px;
+    color: rgb(255, 165, 0);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-family: Times, serif;
 }
 
-/* THEY word */
-
+/* Style Group 6: Pink Small Letters */
+.frontendELetter,
+.developerOLetter,
+.gardeningRLetter,
+.becauseELetter,
 .theyTLetter {
+    font-size: 16px;
+    color: hsl(330, 100%, 70%);
+    font-weight: normal;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: Helvetica, sans-serif;
 }
+
+/* Style Group 7: Teal Medium Letters */
+.frontendNTwoLetter,
+.developerPLetter,
+.gardeningDLetter,
+.becauseCLetter,
 .theyHLetter {
+    font-size: 21px;
+    color: #008080;
+    font-weight: 400;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
 }
+
+/* Style Group 8: Brown Overlined Letters */
+.frontendDLetter,
+.developerEThreeLetter,
+.gardeningELetter,
+.becauseALetter,
 .theyELetter {
-}
-.theyYLetter {
+    font-size: 19px;
+    color: rgb(139, 69, 19);
+    font-weight: 700;
+    text-decoration: overline;
+    text-transform: lowercase;
+    font-family: Georgia, serif;
 }
 
-/* WANTED word */
-
+/* Style Group 9: Navy Large Bold Letters */
+.developerRLetter,
+.gardeningNLetter,
+.becauseULetter,
+.theyYLetter,
 .wantedWLetter {
-}
-.wantedALetter {
-}
-.wantedNLetter {
-}
-.wantedTLetter {
-}
-.wantedELetter {
-}
-.wantedDLetter {
+    font-size: 26px;
+    color: hsl(240, 100%, 25%);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Courier New', monospace;
 }
 
-/* TO word */
-
-.toTLetter {
-}
-.toOLetter {
-}
-
-/* IMPROVE word */
-
+/* Style Group 10: Crimson Underlined Letters */
+.gardeningILetter,
+.becauseSLetter,
+.wantedALetter,
+.toTLetter,
 .improveILetter {
+    font-size: 17px;
+    color: #DC143C;
+    font-weight: normal;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: Verdana, sans-serif;
 }
+
+/* Style Group 11: Gold Line-through Letters */
+.gardeningNTwoLetter,
+.becauseETwoLetter,
+.wantedNLetter,
+.toOLetter,
 .improveMLetter {
-}
-.improvePLetter {
-}
-.improveRLetter {
-}
-.improveOLetter {
-}
-.improveVLetter {
-}
-.improveELetter {
+    font-size: 23px;
+    color: rgb(255, 215, 0);
+    font-weight: 400;
+    text-decoration: line-through;
+    text-transform: lowercase;
+    font-family: Times, serif;
 }
 
-/* THEIR word */
-
-.theirTLetter {
-}
-.theirHLetter {
-}
-.theirELetter {
-}
-.theirILetter {
-}
-.theirRLetter {
-}
-
-/* ROOT word */
-
+/* Style Group 12: Indigo Overlined Letters */
+.gardeningGTwoLetter,
+.wantedTLetter,
+.improvePLetter,
+.theirTLetter,
 .rootRLetter {
-}
-.rootOLetter {
-}
-.rootOTwoLetter {
-}
-.rootTLetter {
+    font-size: 25px;
+    color: hsl(275, 100%, 25%);
+    font-weight: 700;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
 }
 
-/* SKILLS word */
-
+/* Style Group 13: Forest Green Normal Letters */
+.wantedELetter,
+.improveRLetter,
+.theirHLetter,
+.rootOLetter,
 .skillsSLetter {
+    font-size: 20px;
+    color: #228B22;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Arial, sans-serif;
 }
+
+/* Style Group 14: Maroon Bold Letters */
+.wantedDLetter,
+.improveOLetter,
+.theirELetter,
+.rootOTwoLetter,
 .skillsKLetter {
+    font-size: 27px;
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: lowercase;
+    font-family: Georgia, serif;
 }
-.skillsILetter {
-}
+
+/* Style Group 15: Slate Blue Letters */
+.improveVLetter,
+.theirILetter,
+.rootTLetter,
+.skillsILetter,
 .skillsLLetter {
+    font-size: 18px;
+    color: hsl(248, 53%, 58%);
+    font-weight: 400;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-family: 'Courier New', monospace;
 }
-.skillsLTwoLetter {
-}
+
+/* Style Group 16: Dark Orange Final Letters */
+.improveELetter,
+.theirRLetter,
+.skillsLTwoLetter,
 .skillsSTwoLetter {
+    font-size: 24px;
+    color: #FF8C00;
+    font-weight: 700;
+    text-decoration: overline;
+    text-transform: capitalize;
+    font-family: Verdana, sans-serif;
 }
 
 /* SYMBOLS */
-
 .hyphen {
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
 }
+
 .exclamation-mark {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Times, serif;
 }
+
 .question-mark {
+    font-size: 28px;
+    color: hsl(0, 100%, 50%);
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: Georgia, serif;
 }
