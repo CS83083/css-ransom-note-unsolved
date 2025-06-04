@@ -81,7 +81,8 @@ body {
 }
 
 /* DID word */
-/* Style Group 1: Bold Red Letters */
+
+/* Style Group 1: Bold Red Letters - Piazzolla */
 .didDLetter,
 .theTLetter,
 .frontendFLetter,
@@ -92,10 +93,10 @@ body {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Arial, sans-serif;
+    font-family: 'Piazzolla', serif;
 }
 
-/* Style Group 2: Green Underlined Letters */
+/* Style Group 2: Green Underlined Letters - Ceviche One */
 .didILetter,
 .theHLetter,
 .frontendRLetter,
@@ -106,10 +107,10 @@ body {
     font-weight: normal;
     text-decoration: underline;
     text-transform: lowercase;
-    font-family: Georgia, serif;
+    font-family: 'Ceviche One', cursive;
 }
 
-/* Style Group 3: Blue Line-through Letters */
+/* Style Group 3: Blue Line-through Letters - Raleway Dots */
 .didDTwoLetter,
 .theELetter,
 .frontendOLetter,
@@ -120,10 +121,10 @@ body {
     font-weight: 400;
     text-decoration: line-through;
     text-transform: capitalize;
-    font-family: 'Courier New', monospace;
+    font-family: 'Raleway Dots', cursive;
 }
 
-/* Style Group 4: Purple Overlined Letters */
+/* Style Group 4: Purple Overlined Letters - Piazzolla */
 .frontendNLetter,
 .developerETwoLetter,
 .takeELetter,
@@ -134,10 +135,10 @@ body {
     font-weight: 700;
     text-decoration: overline;
     text-transform: uppercase;
-    font-family: Verdana, sans-serif;
+    font-family: 'Piazzolla', serif;
 }
 
-/* Style Group 5: Orange Large Letters */
+/* Style Group 5: Orange Large Letters - Ceviche One */
 .frontendTLetter,
 .developerLLetter,
 .upPLetter,
@@ -148,10 +149,10 @@ body {
     font-weight: bold;
     text-decoration: none;
     text-transform: lowercase;
-    font-family: Times, serif;
+    font-family: 'Ceviche One', cursive;
 }
 
-/* Style Group 6: Pink Small Letters */
+/* Style Group 6: Pink Small Letters - Raleway Dots */
 .frontendELetter,
 .developerOLetter,
 .gardeningRLetter,
@@ -162,10 +163,10 @@ body {
     font-weight: normal;
     text-decoration: underline;
     text-transform: capitalize;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Raleway Dots', cursive;
 }
 
-/* Style Group 7: Teal Medium Letters */
+/* Style Group 7: Teal Medium Letters - Piazzolla */
 .frontendNTwoLetter,
 .developerPLetter,
 .gardeningDLetter,
@@ -176,10 +177,10 @@ body {
     font-weight: 400;
     text-decoration: line-through;
     text-transform: uppercase;
-    font-family: Arial, sans-serif;
+    font-family: 'Piazzolla', serif;
 }
 
-/* Style Group 8: Brown Overlined Letters */
+/* Style Group 8: Brown Overlined Letters - Ceviche One */
 .frontendDLetter,
 .developerEThreeLetter,
 .gardeningELetter,
@@ -190,10 +191,10 @@ body {
     font-weight: 700;
     text-decoration: overline;
     text-transform: lowercase;
-    font-family: Georgia, serif;
+    font-family: 'Ceviche One', cursive;
 }
 
-/* Style Group 9: Navy Large Bold Letters */
+/* Style Group 9: Navy Large Bold Letters - Raleway Dots */
 .developerRLetter,
 .gardeningNLetter,
 .becauseULetter,
@@ -204,10 +205,10 @@ body {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Courier New', monospace;
+    font-family: 'Raleway Dots', cursive;
 }
 
-/* Style Group 10: Crimson Underlined Letters */
+/* Style Group 10: Crimson Underlined Letters - Piazzolla */
 .gardeningILetter,
 .becauseSLetter,
 .wantedALetter,
@@ -218,10 +219,10 @@ body {
     font-weight: normal;
     text-decoration: underline;
     text-transform: capitalize;
-    font-family: Verdana, sans-serif;
+    font-family: 'Piazzolla', serif;
 }
 
-/* Style Group 11: Gold Line-through Letters */
+/* Style Group 11: Gold Line-through Letters - Ceviche One */
 .gardeningNTwoLetter,
 .becauseETwoLetter,
 .wantedNLetter,
@@ -232,10 +233,10 @@ body {
     font-weight: 400;
     text-decoration: line-through;
     text-transform: lowercase;
-    font-family: Times, serif;
+    font-family: 'Ceviche One', cursive;
 }
 
-/* Style Group 12: Indigo Overlined Letters */
+/* Style Group 12: Indigo Overlined Letters - Raleway Dots */
 .gardeningGTwoLetter,
 .wantedTLetter,
 .improvePLetter,
@@ -246,10 +247,10 @@ body {
     font-weight: 700;
     text-decoration: overline;
     text-transform: uppercase;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Raleway Dots', cursive;
 }
 
-/* Style Group 13: Forest Green Normal Letters */
+/* Style Group 13: Forest Green Normal Letters - Piazzolla */
 .wantedELetter,
 .improveRLetter,
 .theirHLetter,
@@ -260,10 +261,10 @@ body {
     font-weight: normal;
     text-decoration: none;
     text-transform: capitalize;
-    font-family: Arial, sans-serif;
+    font-family: 'Piazzolla', serif;
 }
 
-/* Style Group 14: Maroon Bold Letters */
+/* Style Group 14: Maroon Bold Letters - Ceviche One */
 .wantedDLetter,
 .improveOLetter,
 .theirELetter,
@@ -274,10 +275,10 @@ body {
     font-weight: bold;
     text-decoration: underline;
     text-transform: lowercase;
-    font-family: Georgia, serif;
+    font-family: 'Ceviche One', cursive;
 }
 
-/* Style Group 15: Slate Blue Letters */
+/* Style Group 15: Slate Blue Letters - Raleway Dots */
 .improveVLetter,
 .theirILetter,
 .rootTLetter,
@@ -288,10 +289,10 @@ body {
     font-weight: 400;
     text-decoration: line-through;
     text-transform: uppercase;
-    font-family: 'Courier New', monospace;
+    font-family: 'Raleway Dots', cursive;
 }
 
-/* Style Group 16: Dark Orange Final Letters */
+/* Style Group 16: Dark Orange Final Letters - Piazzolla */
 .improveELetter,
 .theirRLetter,
 .skillsLTwoLetter,
@@ -301,7 +302,7 @@ body {
     font-weight: 700;
     text-decoration: overline;
     text-transform: capitalize;
-    font-family: Verdana, sans-serif;
+    font-family: 'Piazzolla', serif;
 }
 
 /* SYMBOLS */
@@ -310,7 +311,7 @@ body {
     color: #000000;
     font-weight: bold;
     text-decoration: none;
-    font-family: Arial, sans-serif;
+    font-family: 'Ceviche One', cursive;
 }
 
 .exclamation-mark {
@@ -319,7 +320,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: Times, serif;
+    font-family: 'Raleway Dots', cursive;
 }
 
 .question-mark {
@@ -327,5 +328,5 @@ body {
     color: hsl(0, 100%, 50%);
     font-weight: 700;
     text-decoration: underline;
-    font-family: Georgia, serif;
+    font-family: 'Piazzolla', serif;
 }
